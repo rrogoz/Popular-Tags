@@ -5,7 +5,7 @@ import os
 
 
 def group_and_count_tags(questions):
-    # return dictionary{tag: (tag count)}
+    # returns dictionary{tag: (tag count)}
     tagsContainer = defaultdict(int)
     for record in questions['items']:
         for tag in record['tags']:
